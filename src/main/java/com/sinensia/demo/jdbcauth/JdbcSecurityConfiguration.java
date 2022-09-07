@@ -15,7 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 import javax.sql.DataSource;
 
-//@EnableWebSecurity
+@EnableWebSecurity
 public class JdbcSecurityConfiguration {
 
     @Autowired
